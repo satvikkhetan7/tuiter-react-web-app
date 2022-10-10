@@ -13,14 +13,25 @@
     color:white;
     width:90%;
 }
+
+.wd-search-color-white{
+    background-color: white;
+    color:gray;
+    width:90%;
+}
+
 .wd-margin-right {
     /*margin-left: 50px;*/
-    margin-right: 12px;
+    margin-right: 15px;
     color:white;
 }
 
 .wd-margin-left {
-    margin-left: 12px;
+    margin-left: 15px;
+}
+
+.wd-padding-top{
+    padding-top: 15px;
 }
 
 .wd-color-font-selected {
@@ -36,6 +47,10 @@
 .wd-float-right {
     float: right;
     height: 100px;
+}
+
+.wd-float-right-follow {
+    float: right;
 }
 
 .wd-padded-top-left-bottom {
@@ -75,7 +90,7 @@
 }
 
 .wd-rounded-corners-all-around {
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .wd-image-margin-right {
@@ -85,6 +100,10 @@
 .wd-padding-top{
     padding-top: 12px;
     /*padding-left: 16px;*/
+}
+
+.wd-padding-bottom{
+    padding-bottom: 12px;
 }
 
 .wd-header-h1{
@@ -162,6 +181,27 @@
     border-radius: 50px;
 }
 
+.btn-primary.override-bs {
+    background-color: #a90dfd;
+    border-color: #fd0d51;
+    border-width: 10px;
+    border-radius: 20px;
+    border-style: dashed;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.btn-primary.override-bs-tweet {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.btn-primary.override-bs-follow {
+    border-radius: 20px;
+    width: 30%;
+    height: 10px;
+    padding-bottom: 30px;
+}
 
 .wd-icon-lightgray {
     color:lightgray;
