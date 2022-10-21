@@ -1,7 +1,6 @@
 import React from "react";
 import NavigationSidebar from "../navigation-sidebar";
 import WhoToFollowList from "../who-to-follow-list";
-import PostSummaryList from "../post-summary-list";
 import MidComponent from "./explore";
 
 const Explore = () => {
