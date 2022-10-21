@@ -1,11 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-    faBorderAll,
     faCheckCircle,
     faComment,
     faHeart,
-    faHome,
     faRetweet,
     faUpload
 } from "@fortawesome/free-solid-svg-icons";
@@ -30,7 +28,7 @@ const HomePostItem = ({
             <p>{post.title}</p>
             <div className="wd-round-border">
                 <img className="wd-padding-top wd-bookmark-big-img wd-rounded-corners-all-around"
-                     src={post.image}/>
+                     src={post.image} alt="text"/>
             </div>
             <br/>
             <div>
