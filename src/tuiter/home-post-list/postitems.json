@@ -1,0 +1,16 @@
+[
+  { "userImage": "./images/tesla.png",
+    "name": "Tesla",
+    "handle": "tesla",
+    "time": "23h",
+    "title": "Tesla is releasing a new human bot that can do all your work",
+    "image": "./images/teslabot.jpg"
+  },
+  { "userImage": "./images/met.jpeg",
+    "name": "Met Gala",
+    "handle": "MGala",
+    "time": "18h",
+    "title": "Stars shine on the red carpet of Met Gala",
+    "image": "./images/met.jpeg"
+  }
+]

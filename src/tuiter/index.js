@@ -1,10 +1,12 @@
-import Nav from "../nav";
-function Tuiter() {
+import React from "react";
+import HomeComponent from "./home";
+
+const Tuiter = () => {
     return (
-        <div>
-            <Nav/>
-            <h1>Tuiter</h1>
-        </div>
+        <>
+            <HomeComponent/>
+        </>
     )
-}
-export default Tuiter;
+};
+
+export default Tuiter
