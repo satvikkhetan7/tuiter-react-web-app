@@ -1,0 +1,9 @@
+{
+  "firstName": "Satvik", "lastName": "Khetan", "handle": "@skhetan",
+  "profilePicture": "./images/batman.jpeg", "bannerPicture": "./images/cs.jpeg",
+  "bio": "Student, Computer Science Northeastern University",
+  "website": "youtube.com/webdevtv",
+  "location": "Boston, MA",	"dateOfBirth": "7/7/1995",	"dateJoined": "4/2009",
+  "followingCount": 340,	"followersCount": 223,
+  "numOfTuits" : 1234
+}

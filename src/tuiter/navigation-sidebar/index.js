@@ -19,7 +19,9 @@ const NavigationSidebar = (
             <a href="templink.html" className={`list-group-item ${active === `messages` ? `active` : ''}`}>Messages</a>
             <a href="templink.html" className={`list-group-item ${active === `bookmarks` ? `active` : ''}`}>Bookmarks</a>
             <a href="templink.html" className={`list-group-item ${active === `lists` ? `active` : ''}`}>Lists</a>
-            <a href="templink.html" className={`list-group-item ${active === `profile` ? `active` : ''}`}>Profile</a>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
+                Profile
+            </Link>
             <a href="templink.html" className={`list-group-item ${active === `more` ? `active` : ''}`}>More</a>
         </div>
     );
