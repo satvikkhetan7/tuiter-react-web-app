@@ -12,6 +12,15 @@ const TuitsList = () => {
     }, [])
     return(
         <div className="row">
+            <ul className="list-group">
+                {
+                    loading &&
+                    <li className="list-group-item">
+                        Loading...
+                    </li>
+                }
+            </ul>
+
             {
                 tuits.map(post => {
                     return(

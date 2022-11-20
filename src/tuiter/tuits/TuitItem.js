@@ -44,12 +44,12 @@ const TuitItem = ({
                     <a className="wd-padding-left-64" href="templink.html">
                         <span><FontAwesomeIcon icon={faRetweet} /></span><span className="wd-padding-left-12">453</span>
                     </a>
-                    <a className="wd-icon-red wd-padding-left-64">
+                    <span className="wd-icon-red wd-padding-left-64">
                         <TuitStats post={post}/>
-                    </a>
-                    <a className="wd-icon-red wd-padding-left-64">
+                    </span>
+                    <span className="wd-icon-red wd-padding-left-64">
                         <TuitStatsDislike post={post}/>
-                    </a>
+                    </span>
                     <a className="wd-padding-left-64" href="templink.html">
                         <span><FontAwesomeIcon icon={faUpload} /></span><span className="wd-padding-left-12">77</span>
                     </a>

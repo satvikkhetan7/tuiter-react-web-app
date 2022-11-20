@@ -1,5 +1,5 @@
 import {useDispatch} from "react-redux";
-import {faHeart, faThumbsDown} from "@fortawesome/free-solid-svg-icons";
+import {faHeart} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import React from "react";
 import {updateTuitThunk} from "../../services/tuits-thunks";
