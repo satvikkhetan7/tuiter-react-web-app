@@ -2,8 +2,9 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCheckCircle, faComment, faRetweet, faUpload} from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 import TuitStats from "./TuitStats";
+import TuitStatsDislike from "./TuitsStatsDislike";
 
 const TuitItem = ({
                       post = {
@@ -17,7 +18,7 @@ const TuitItem = ({
 }) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return(
@@ -43,8 +44,11 @@ const TuitItem = ({
                     <a className="wd-padding-left-64" href="templink.html">
                         <span><FontAwesomeIcon icon={faRetweet} /></span><span className="wd-padding-left-12">453</span>
                     </a>
-                    <a className="wd-icon-red wd-padding-left-64" href="templink.html">
+                    <a className="wd-icon-red wd-padding-left-64">
                         <TuitStats post={post}/>
+                    </a>
+                    <a className="wd-icon-red wd-padding-left-64">
+                        <TuitStatsDislike post={post}/>
                     </a>
                     <a className="wd-padding-left-64" href="templink.html">
                         <span><FontAwesomeIcon icon={faUpload} /></span><span className="wd-padding-left-12">77</span>
