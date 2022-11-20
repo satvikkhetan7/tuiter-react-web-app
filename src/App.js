@@ -20,7 +20,7 @@ function App() {
                   <Route path="/tuiter/explore" element={<Explore/>}/>
                   <Route path="/tuiter/profile" element={<ProfileComponent/>}/>
                   <Route path="/tuiter/edit-profile" element={<EditProfileComponent/>}/>
-                  <Route path="/*" element={<Labs/>}/>
+                  {/*<Route path="/*" element={<Labs/>}/>*/}
               </Routes>
           </div>
       </BrowserRouter>
